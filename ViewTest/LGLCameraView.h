@@ -1,5 +1,5 @@
 //
-//  LGLViewController.h
+//  LGLCameraView.h
 //  ViewTest
 //
 //  Created by Ryan Farnell on 2/7/12.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface LGLViewController : UIViewController
-
-@property (strong, nonatomic) IBOutlet MKMapView *map;
+@interface LGLCameraView : UIView
+{
+    UIImageView *_imageView;
+    UIImageView *_starImage;
+}
 
 @end

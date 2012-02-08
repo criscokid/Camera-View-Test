@@ -16,6 +16,10 @@
 		F4239C4514E20B9C008D5417 /* LGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4239C4414E20B9C008D5417 /* LGLViewController.m */; };
 		F4239C4814E20B9C008D5417 /* LGLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4239C4614E20B9C008D5417 /* LGLViewController_iPhone.xib */; };
 		F4239C4B14E20B9C008D5417 /* LGLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4239C4914E20B9C008D5417 /* LGLViewController_iPad.xib */; };
+		F4239C5314E20BB9008D5417 /* LGLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4239C5214E20BB9008D5417 /* LGLCameraView.m */; };
+		F4239C5514E20BD3008D5417 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4239C5414E20BD3008D5417 /* MapKit.framework */; };
+		F4239C5714E20DA1008D5417 /* cameraimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F4239C5614E20DA1008D5417 /* cameraimage.jpeg */; };
+		F4239C5914E214F8008D5417 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F4239C5814E214F8008D5417 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,21 @@
 		F4239C3114E20B9C008D5417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4239C3314E20B9C008D5417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4239C3514E20B9C008D5417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F4239C3914E20B9C008D5417 /* ViewTest-Info.plist */ = {isa = PBXFileReference; path = "ViewTest-Info.plist"; sourceTree = "<group>"; };
+		F4239C3914E20B9C008D5417 /* ViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTest-Info.plist"; sourceTree = "<group>"; };
 		F4239C3B14E20B9C008D5417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4239C3D14E20B9C008D5417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4239C3F14E20B9C008D5417 /* ViewTest-Prefix.pch */ = {isa = PBXFileReference; path = "ViewTest-Prefix.pch"; sourceTree = "<group>"; };
-		F4239C4014E20B9C008D5417 /* LGLAppDelegate.h */ = {isa = PBXFileReference; path = LGLAppDelegate.h; sourceTree = "<group>"; };
+		F4239C3F14E20B9C008D5417 /* ViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		F4239C4014E20B9C008D5417 /* LGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLAppDelegate.h; sourceTree = "<group>"; };
 		F4239C4114E20B9C008D5417 /* LGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLAppDelegate.m; sourceTree = "<group>"; };
-		F4239C4314E20B9C008D5417 /* LGLViewController.h */ = {isa = PBXFileReference; path = LGLViewController.h; sourceTree = "<group>"; };
+		F4239C4314E20B9C008D5417 /* LGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGLViewController.h; sourceTree = "<group>"; };
 		F4239C4414E20B9C008D5417 /* LGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLViewController.m; sourceTree = "<group>"; };
 		F4239C4714E20B9C008D5417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LGLViewController_iPhone.xib; sourceTree = "<group>"; };
 		F4239C4A14E20B9C008D5417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LGLViewController_iPad.xib; sourceTree = "<group>"; };
+		F4239C5114E20BB9008D5417 /* LGLCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCameraView.h; sourceTree = "<group>"; };
+		F4239C5214E20BB9008D5417 /* LGLCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCameraView.m; sourceTree = "<group>"; };
+		F4239C5414E20BD3008D5417 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F4239C5614E20DA1008D5417 /* cameraimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cameraimage.jpeg; sourceTree = "<group>"; };
+		F4239C5814E214F8008D5417 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4239C5514E20BD3008D5417 /* MapKit.framework in Frameworks */,
 				F4239C3214E20B9C008D5417 /* UIKit.framework in Frameworks */,
 				F4239C3414E20B9C008D5417 /* Foundation.framework in Frameworks */,
 				F4239C3614E20B9C008D5417 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +62,7 @@
 		F4239C2214E20B9B008D5417 = {
 			isa = PBXGroup;
 			children = (
+				F4239C5414E20BD3008D5417 /* MapKit.framework */,
 				F4239C3714E20B9C008D5417 /* ViewTest */,
 				F4239C3014E20B9C008D5417 /* Frameworks */,
 				F4239C2E14E20B9C008D5417 /* Products */,
@@ -79,13 +90,17 @@
 		F4239C3714E20B9C008D5417 /* ViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				F4239C5814E214F8008D5417 /* star.png */,
 				F4239C4014E20B9C008D5417 /* LGLAppDelegate.h */,
 				F4239C4114E20B9C008D5417 /* LGLAppDelegate.m */,
 				F4239C4314E20B9C008D5417 /* LGLViewController.h */,
+				F4239C5614E20DA1008D5417 /* cameraimage.jpeg */,
 				F4239C4414E20B9C008D5417 /* LGLViewController.m */,
 				F4239C4614E20B9C008D5417 /* LGLViewController_iPhone.xib */,
 				F4239C4914E20B9C008D5417 /* LGLViewController_iPad.xib */,
 				F4239C3814E20B9C008D5417 /* Supporting Files */,
+				F4239C5114E20BB9008D5417 /* LGLCameraView.h */,
+				F4239C5214E20BB9008D5417 /* LGLCameraView.m */,
 			);
 			path = ViewTest;
 			sourceTree = "<group>";
@@ -155,6 +170,8 @@
 				F4239C3C14E20B9C008D5417 /* InfoPlist.strings in Resources */,
 				F4239C4814E20B9C008D5417 /* LGLViewController_iPhone.xib in Resources */,
 				F4239C4B14E20B9C008D5417 /* LGLViewController_iPad.xib in Resources */,
+				F4239C5714E20DA1008D5417 /* cameraimage.jpeg in Resources */,
+				F4239C5914E214F8008D5417 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +185,7 @@
 				F4239C3E14E20B9C008D5417 /* main.m in Sources */,
 				F4239C4214E20B9C008D5417 /* LGLAppDelegate.m in Sources */,
 				F4239C4514E20B9C008D5417 /* LGLViewController.m in Sources */,
+				F4239C5314E20BB9008D5417 /* LGLCameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +239,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -240,7 +258,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,6 +307,7 @@
 				F4239C5014E20B9C008D5417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
